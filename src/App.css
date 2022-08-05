@@ -102,7 +102,7 @@ input:focus {
 }
 
 .normal-button {
-  background-color: #FF667780;
+  background-color: #FF4455;
   border: 1px solid #d5d9d9;
   border-radius: 8px;
   box-shadow: #AA999050 0 2px 3px 0;
@@ -125,7 +125,7 @@ input:focus {
 }
 
 .normal-button:hover {
-  background-color: #f7fafa;
+  background-color: #FF6688;
 }
 
 .normal-button:focus {
