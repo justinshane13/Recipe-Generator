@@ -91,7 +91,7 @@ input:focus {
   -webkit-user-select: none;
   touch-action: manipulation;
   vertical-align: middle;
-  text-shadow: #FFF 0px 0px 5px;
+  text-shadow: #FFF 0px 0px 8px;
 }
 
 .submit-button:hover {
@@ -416,7 +416,7 @@ p > a {
     -webkit-user-select: none;
     touch-action: manipulation;
     vertical-align: middle;
-    text-shadow: #FFF 0px 0px 5px;
+    text-shadow: #FFF 0px 0px 8px;
   }
   
   .normal-button:hover {
@@ -529,10 +529,10 @@ p > a {
   .details-name-container {
     display: flex;
     margin-top: 30px;
-    align-items: center;
+    align-items: flex-end;
     margin-left: auto;
     margin-right: auto;
-    width: 330px;
+    width: 300px;
   }
   
   .details-return-div {
@@ -541,16 +541,14 @@ p > a {
   }
 
   .details-return {
-    font-size: 12px;
+    font-size: 10px;
     line-height: 16px;
-    padding: 5px;
+    padding: 3px;
   }
   
   .details-name-div {
     width: 180px;
     text-align: center;
-    margin-left: 20px;
-    margin-right: 20px;
   }
   
   .details-video-div {
@@ -559,9 +557,12 @@ p > a {
   }
 
   .details-video {
-    font-size: 12px;
+    font-size: 10px;
     line-height: 16px;
-    padding: 5px;
+  }
+
+  .details-video-button {
+    padding: 3px;
   }
   
   .details-name {
@@ -612,5 +613,11 @@ p > a {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px 0px;
+  }
+  
+  .footer-text {
+    width: 210px;
+    text-align: center;
   }
 }

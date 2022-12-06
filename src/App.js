@@ -58,7 +58,7 @@ function App() {
       {!isDetails && <Recipes summary={summary} setDetails={setDetails} hasSearched={hasSearched} searching={searching}/>}
       {isDetails && <Details currentRecipe={summary[currentRecipeIndex]} setDetails={setDetails} />}
       <div className="footer">
-        <p>Recipe information provided by <a href="https://rapidapi.com/apidojo/api/tasty">Tasty API</a> and icons provided by <a href="www.icons8.com">Icons 8</a>.</p>
+        <p className='footer-text'>Recipe information provided by <a href="https://rapidapi.com/apidojo/api/tasty">Tasty API</a> and icons provided by <a href="www.icons8.com">Icons 8</a>.</p>
       </div>
     </div>
   );
