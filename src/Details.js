@@ -24,7 +24,7 @@ export default function Details(props) {
                         <h3 class="details-name">{props.currentRecipe.name}</h3>
                     </div>
                     <div className="details-video-div">
-                        {props.currentRecipe.original_video_url && <a className="details-video" target="_blank" rel="noopener noreferrer" href={props.currentRecipe.original_video_url}><button className="normal-button">Watch the video</button></a>}
+                        {props.currentRecipe.original_video_url && <a className="details-video" target="_blank" rel="noopener noreferrer" href={props.currentRecipe.original_video_url}><button className="normal-button details-video">Watch the video</button></a>}
                     </div>
                 </div>
                 <div className="img-wrapper">

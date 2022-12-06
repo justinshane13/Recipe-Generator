@@ -91,6 +91,7 @@ input:focus {
   -webkit-user-select: none;
   touch-action: manipulation;
   vertical-align: middle;
+  text-shadow: #FFF 0px 0px 5px;
 }
 
 .submit-button:hover {
@@ -298,4 +299,318 @@ ol {
 
 p > a {
   color: black;
+}
+
+@media only screen and (max-width: 600px) {
+  .front-page-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #44FFEE;
+    height: 200px;
+  }
+  
+  .title {
+    color: #FF4455;
+    font-size: 40px;
+    font-family: Shrikhand, sans-serif;
+    font-weight: 700;
+    margin-top: 40px;
+  }
+  
+  .subtitle-form-container {
+    display: flex;
+    flex-direction: column;
+    width: 345px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .subtitle {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  form {
+    display: flex;
+    justify-content: center;
+    margin-top: -15px;
+    width: 345px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  input {
+    height: 30px;
+    border: none;
+    border-radius: 8px 0px 0px 8px;
+    box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+    padding-left: 35px;
+    margin-right: 0px;
+    width: 345%;
+    font-size: 14px;
+    font-weight: bold;
+    background-image: url("images/icons8-search-48.png");
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: center;
+    background-position-x: calc(0% + 8px);
+  }
+  
+  input:focus {
+    outline: none;
+  }
+  
+  .submit-button {
+    width: 140px;
+    background-color: #FF4455;
+    border: none;
+    border-radius: 0px 8px 8px 0px;
+    box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+    box-sizing: border-box;
+    color: #0f1111;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Lato", Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 29px;
+    padding: 0 15px 0 15px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+  }
+  
+  .submit-button:hover {
+    background-color: #FF6688;
+  }
+  
+  .submit-button:active {
+    top: 2px;
+  }
+  
+  .normal-button {
+    background-color: #FF4455;
+    border: 1px solid #d5d9d9;
+    border-radius: 8px;
+    box-shadow: #AA999050 0 2px 3px 0;
+    box-sizing: border-box;
+    color: #0f1111;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Lato", Helvetica, sans-serif;
+    font-size: 13px; 
+    font-weight: bold;
+    line-height: 29px;
+    padding: 0 10px 0 11px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    text-shadow: #FFF 0px 0px 5px;
+  }
+  
+  .normal-button:hover {
+    background-color: #FF6688;
+  }
+  
+  .normal-button:focus {
+    border-color: #008296;
+    box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+    outline: 0;
+  }
+  
+  .normal-button:active {
+    top: 2px;
+  }
+  
+  .front-page-container-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: auto;
+  }
+  
+  .placeholder {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    background-image: url("images/icons8-meal-100.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: calc(0% + 10px);
+    background-size: 75px;
+    opacity: .1;
+  }
+  
+  .searching {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .exploring {
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 90px;
+  }
+  
+  .front-page-container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-bottom: 100px;
+  }
+  
+  .recipe-tile {
+    padding: 0px;
+    border-radius: 10px;
+  }
+  
+  .recipe-img {
+    width: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .name {
+    margin-top: 12px;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .description {
+    margin-top: 6px;
+    font-size: 14px;
+    word-wrap: break-word;
+    text-align: justify;
+  }
+  
+  .button-wrapper {
+    display: flex;
+    margin-top: 12px;
+    width: 300px;
+    justify-content: center;
+  }
+  
+  .video-button {
+    width: 140px;
+    margin-right: 20px;
+  }
+  
+  .recipe-page-button {
+    width: 140px;
+  }
+  
+  .details-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
+  
+  .details-name-container {
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 330px;
+  }
+  
+  .details-return-div {
+    width: 70px;
+    text-align: center;
+  }
+
+  .details-return {
+    font-size: 12px;
+    line-height: 16px;
+    padding: 5px;
+  }
+  
+  .details-name-div {
+    width: 180px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .details-video-div {
+    width: 70px;
+    text-align: center;
+  }
+
+  .details-video {
+    font-size: 12px;
+    line-height: 16px;
+    padding: 5px;
+  }
+  
+  .details-name {
+    justify-self: center;
+  }
+  
+  .img-wrapper {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 300px;
+  }
+  
+  .details-description {
+    margin-top: 30px;
+    line-height: 21px;
+    font-size: 15px;
+    letter-spacing: .1rem;
+  }
+  
+  ul {
+    margin-top: 30px;
+    margin-left: 16px;
+  }
+  
+  ul > li {
+    line-height: 24px;
+  }
+  
+  ol {
+    margin-top: 30px;
+    margin-left: 16px;
+    margin-bottom: 90px;
+    line-height: 24px;
+  }
+  
+  .footer {
+    width: 100%;
+    background-color: #44FFEE;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 3em;
+    font-size: 11px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
