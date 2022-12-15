@@ -573,18 +573,18 @@ p > a {
   .button-wrapper {
     display: flex;
     margin-top: 12px;
-    width: 300px;
-    justify-content: center;
+    width: 100%;
+    justify-content: space-around;
   }
   
   .video-button {
-    width: 100px;
-    margin-right: 20px;
+    width: 130px;
+    margin-right: 10px;
   }
   
   .recipe-page-button {
-    width: 100px;
-    margin-right: 20px;
+    width: 130px;
+    margin-right: 0px;
   }
   
   .details-page {
