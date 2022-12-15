@@ -335,6 +335,11 @@ input:focus {
   line-height: 21px;
 }
 
+.ingredients-title {
+  margin-top: 30px;
+  margin-bottom: -20px;
+}
+
 ul {
   margin-top: 30px;
   margin-left: 16px;
@@ -551,10 +556,10 @@ p > a {
   }
   
   .recipe-img {
-    width: 90%;
+    width: 100%;
     object-fit: cover;
     border-radius: 10px;
-    margin-top: -10px;
+    margin-top: 0px;
   }
   
   .name {
@@ -599,15 +604,23 @@ p > a {
   
   .details-name-container {
     display: flex;
+    flex-direction: column;
     margin-top: 30px;
-    align-items: flex-end;
+    align-items: center;
     margin-left: auto;
     margin-right: auto;
     width: 300px;
   }
+
+  .details-button-container {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    margin-top: 10px;
+  }
   
   .details-return-div {
-    width: 70px;
+    width: 45%;
     text-align: center;
   }
 
@@ -615,21 +628,23 @@ p > a {
     font-size: 10px;
     line-height: 16px;
     padding: 3px;
+    width: 120px;
   }
   
   .details-name-div {
-    width: 180px;
+    width: 100%;
     text-align: center;
   }
   
   .details-video-div {
-    width: 70px;
+    width: 50%;
     text-align: center;
   }
 
   .details-video {
     font-size: 10px;
     line-height: 16px;
+    width: 120px;
   }
 
   .details-video-button {
@@ -638,14 +653,21 @@ p > a {
   
   .details-name {
     justify-self: center;
+    background-color: white;
+    width: 300px;
   }
   
   .img-wrapper {
-    margin-top: 30px;
+    margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
     height: 200px;
     width: 300px;
+    background-color: white;
+  }
+
+  .ingredients-title {
+    margin-left: 43px;
   }
   
   .details-description {
