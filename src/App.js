@@ -22,6 +22,8 @@ function App() {
         'X-RapidAPI-Key': '4450aa1a9emsha30afbd3a84392bp15df66jsncfef154d40be'
       }
     };
+
+    setSummary([])
     
     fetch(`https://tasty.p.rapidapi.com/recipes/list?from=0&size=10&tags=under_30_minutes&q=${food}`, options)
       .then(response => response.json())
