@@ -25,7 +25,6 @@ export default function Recipes(props) {
             {props.searching && <p className="dot-typing"></p>}
             {props.hasSearched && !props.searching && props.summary.length === 0 && <p className="searching">There were no recipes with that ingredient.</p>}
             <div className="front-page-container">
-                
                 {recipeElements}
             </div>
         </div>

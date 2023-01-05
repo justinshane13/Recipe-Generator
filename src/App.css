@@ -380,6 +380,7 @@ ol {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 40px 0px;
 }
 
 p > a {
@@ -732,7 +733,7 @@ p > a {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px 0px;
+    padding: 35px 0px;
   }
   
   .footer-text {
