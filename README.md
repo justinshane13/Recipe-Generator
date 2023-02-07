@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Bon Recipe
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This app was built because I did not enjoy the format of most recipe websites. Most sites force you to scroll through long blocks of text just to reach the list of ingredients. This app lets a user search any ingredient and will return recipe ideas containing that ingredient.
 
 ## Available Scripts
 
